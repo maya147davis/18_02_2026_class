@@ -39,10 +39,13 @@ Example:
 
 Answer: `|  -`
 
-### You can also add brackets i.e.  
+### You can also add brackets 
+
+Example:  
+
 `{1 2 3} ? {3 4} ? { 2 } = { 2 }`  
 
-Answer: `( {1 2 3} - {3 4} ) & { 2 } = { 2 }  
+Answer: `( {1 2 3} - {3 4} ) & { 2 } = { 2 }` 
 
 1. `{1, 2} ? {3, 4} ? {2} = {1, 3, 4}`
 
