@@ -10,7 +10,9 @@ Example:
 
 `{1, 2} ? {3, 4} = {1, 2, 3, 4}`
 
-Answer: `|`  
+Answer: `|` , because-  
+
+`{1, 2} | {3, 4} = {1, 2, 3, 4}`
 
 **Solve:**  
 
@@ -38,7 +40,9 @@ Example:
 
 `{1, 2} ? {3, 4} ? {2} = {1, 3, 4}`
 
-Answer: `|  -`
+Answer: `|  -`  , because-  
+
+`{1, 2} | {3, 4} - {2} = {1, 3, 4}`
 
 ### You can also add brackets 
 
