@@ -37,15 +37,18 @@ languages_mobile = {
     "JavaScript",
     "C#"
 }
-print("\n🌐 Languages for Web Development:")
-print(sorted(languages_web))
-print("\n📊 Languages for Data Science:")
-print(sorted(languages_data_science))
-print("\n⚙️  Languages for System Programming:")
-print(sorted(languages_systems))
-print("\n📱 Languages for Mobile Development:")
-print(sorted(languages_mobile))
 
+def print_all_sets():
+    print("\n🌐 Languages for Web Development:")
+    print(sorted(languages_web))
+    print("\n📊 Languages for Data Science:")
+    print(sorted(languages_data_science))
+    print("\n⚙️  Languages for System Programming:")
+    print(sorted(languages_systems))
+    print("\n📱 Languages for Mobile Development:")
+    print(sorted(languages_mobile))
+
+print_all_sets()
 
 print("\n❓ Which languages are good for BOTH Web AND Data Science?")
 print(languages_web & languages_data_science)

@@ -26,6 +26,8 @@ print("2) The suspect SMOKES")
 print("3) The suspect likes SKYDIVING")
 print("4) The suspect is NOT someone who rides BOTH bike AND motorcycle")
 
+print((ride_bikes | ride_motorcycles) & smokers & likes_skyjump - (ride_bikes & ride_motorcycles))
+
 # 3
 # The suspects
 night_shift = {"Alex", "Jordan", "Taylor", "Casey"}
@@ -38,5 +40,4 @@ print("1) The suspect was on the NIGHT SHIFT.")
 print("2) The suspect has access to the SERVER ROOM.")
 print("3) The suspect is a HARDWARE EXPERT.")
 print("4) The suspect is NOT in a MANAGEMENT ROLE.")
-print("5) The suspect is in BOTH NIGHT SHIFT and SERVER ROOM access.")
-
+print(night_shift & access_server_room & hardware_expert - management_role)
