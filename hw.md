@@ -1,6 +1,6 @@
 # Python Sets – Homework Set Group Operations
 
-Solve at least 1 quesiton 
+Solve at least 1 question 
 
 ## Part A 
 
