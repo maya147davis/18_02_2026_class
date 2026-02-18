@@ -44,6 +44,7 @@ actors_superhero = {
 }
 
 print("\n🦸 Actors in Marvel Cinematic Universe:")
+print()
 
 print("\n🦇 Actors in DC Extended Universe:")
 

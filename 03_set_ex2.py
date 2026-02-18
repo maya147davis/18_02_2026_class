@@ -59,5 +59,6 @@ print("\n❓ Is 'Python' in the web development set?")
 
 print("\n❓ The ultimate polyglot language (in ALL four categories)?")
 
+modern_web = {"JavaScript", "TypeScript", "Python"}
 print("\n❓ Is modern_web a PROPER subset of web languages (PROPER = smaller, not equal)?")
 
