@@ -47,7 +47,6 @@ print("\n🦸 Actors in Marvel Cinematic Universe:")
 
 print("\n🦇 Actors in DC Extended Universe:")
 
-
 print("\n🎭 Actors in superhero movies (any franchise):")
 
 print("\n❓ Are there any actors in BOTH MCU and DCEU?")
