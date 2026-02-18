@@ -85,4 +85,4 @@ print(f"Result: {movies_best_actor >= movies_best_screenplay}")
 print(f"Result: {(   {1,2} >= {1,2,3}  )}")
 print(f"Result: {(   {1,2} >= {1,2}  )}")
 print(f"Result: {(   {1,2} >= {1,4,5}  )}")
-print(f"Result: {(   {1,2} > {1,2}  )}")
+print(f"Result: {(   {1,2} > {1,2}  )}")  # FALSE

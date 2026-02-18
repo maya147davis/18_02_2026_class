@@ -48,17 +48,24 @@ print(sorted(languages_mobile))
 
 
 print("\n❓ Which languages are good for BOTH Web AND Data Science?")
+print(languages_web & languages_data_science)
 
 print("\n❓ Languages that can do Web, Mobile, OR Data Science?")
+print(languages_web | languages_mobile | languages_data_science)
 
 print("\n❓ Languages ONLY for System Programming (not web/mobile/data)?")
+print(languages_systems - languages_web - languages_mobile - languages_data_science)
 
 print("\n❓ Which languages work for Web but NOT Mobile?")
+print(languages_web - languages_mobile)
 
 print("\n❓ Is 'Python' in the web development set?")
+print('Python' in languages_web)
 
 print("\n❓ The ultimate polyglot language (in ALL four categories)?")
+print(languages_systems & languages_web & languages_mobile & languages_data_science)
 
 modern_web = {"JavaScript", "TypeScript", "Python"}
 print("\n❓ Is modern_web a PROPER subset of web languages (PROPER = smaller, not equal)?")
+print(modern_web < languages_web)
 
