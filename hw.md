@@ -68,7 +68,7 @@ Answer:
 
 6. `{1, 2, 3, 4} ? {3, 4, 5} ? {1, 5} = {2, 3, 4}`
 
-7. `{1, 2, 3} ? {3, 4, 5} ? {1, 2, 4} = {4, 5}` **ETGAR
+7. `{1, 2, 3} ? {3, 4, 5} ? {1, 2, 4} = {4, 5}` **ETGAR**
 
 
 **Submission email:** [pythonai211225+pythonx3set2@gmail.com](mailto:pythonai211225+pythonx3set2@gmail.com)
