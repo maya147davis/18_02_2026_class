@@ -38,5 +38,5 @@ print("1) The suspect was on the NIGHT SHIFT.")
 print("2) The suspect has access to the SERVER ROOM.")
 print("3) The suspect is a HARDWARE EXPERT.")
 print("4) The suspect is NOT in a MANAGEMENT ROLE.")
-print("5) The suspect is in NIGHT SHIFT or SERVER ROOM access, but NOT BOTH.")
+print("5) The suspect is in BOTH NIGHT SHIFT and SERVER ROOM access.")
 
