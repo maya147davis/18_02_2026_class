@@ -85,4 +85,12 @@ print(f"Result: {movies_best_actor >= movies_best_screenplay}")
 print(f"Result: {(   {1,2} >= {1,2,3}  )}")
 print(f"Result: {(   {1,2} >= {1,2}  )}")
 print(f"Result: {(   {1,2} >= {1,4,5}  )}")
-print(f"Result: {(   {1,2} > {1,2}  )}")
+print(f"Result: {(   {1,2} > {1,2}  )}")  # FALSE
+
+# Example 1: Disjoint Sets
+set1 = {1, 2, 3}
+set2 = {4, 5, 6}
+print(set1.isdisjoint(set2)) # Output: True
+
+set3 = {3, 4, 5}
+print(set1.isdisjoint(set3)) # Output: False
